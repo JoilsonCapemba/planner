@@ -15,6 +15,7 @@ import java.util.UUID;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
+@Table(name = "trips")
 public class Trip {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)

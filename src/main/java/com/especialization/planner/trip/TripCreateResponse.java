@@ -1,2 +1,6 @@
-package com.especialization.planner.trip;public record TripCreateResponse() {
+package com.especialization.planner.trip;
+
+import java.util.UUID;
+
+public record TripCreateResponse(UUID tripId) {
 }
