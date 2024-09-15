@@ -1,2 +1,9 @@
-package com.especialization.planner.trip;public interface TripRepository {
+package com.especialization.planner.trip;
+
+import org.aspectj.apache.bcel.util.Repository;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import java.util.UUID;
+
+public interface TripRepository extends JpaRepository<Trip, UUID> {
 }
